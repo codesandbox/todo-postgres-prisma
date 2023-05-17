@@ -4,7 +4,8 @@
     {
       "name": "Install Dependencies",
       "command": "npm install"
-    }
+    },
+    { "name": "Migrate", "command": "npx prisma migrate deploy" }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
